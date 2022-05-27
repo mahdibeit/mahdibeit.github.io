@@ -123,7 +123,7 @@ content:
   - title: Programming Languages and Libraries
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Programming languages: <mark>Python</mark>, <mark>C</mark>, <mark>Matlab</mark>, <mark>SQL</mark>, <mark>Java</mark>, <mark>Bash</mark>, <mark>Git</mark>,
+      Programming languages: <mark>Python</mark>, <mark>C</mark>, <mark>Matlab</mark>, <mark>SQL</mark>, <mark>Java</mark>, <mark>Bash</mark>, <mark>Git</mark>
       
       Libraries: <mark>Python</mark>,  <mark>PyTorch</mark>, <mark>Pandas</mark>, <mark>Tensorflow</mark>, <mark>Flower</mark>, <mark>PySyft</mark>, <mark>Numpy</mark>, <mark>CUDA</mark>, <mark>Sklearn</mark>, <mark>Keras</mark>, <mark>SciPy</mark>, <mark>XGBoost</mark>, <mark>Matplotlib</mark>, <mark>PySpark</mark>, <mark>MLflow</mark>
 
