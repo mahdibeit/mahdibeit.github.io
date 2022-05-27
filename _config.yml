@@ -99,24 +99,24 @@ content:
           
           
       - layout: left #top-middle
-      title: EEG-Based Brain Computer Interface
-      link: https://github.com/mahdibeit/EEG-BasedBCI
-      #sub_title: Submitted to IEEE GLOBECOM 2022
-      # link_text: Project Website
-      additional_links:
-        - title:  https://github.com/mahdibeit/EEG-BasedBCI
-          icon: fab fa-github
-          url: github.com/mahdibeit/Crowd-Counting
+        title: EEG-Based Brain Computer Interface
+        link: https://github.com/mahdibeit/EEG-BasedBCI
+        #sub_title: Submitted to IEEE GLOBECOM 2022
+        # link_text: Project Website
+        additional_links:
+          - title:  https://github.com/mahdibeit/EEG-BasedBCI
+            icon: fab fa-github
+            url: github.com/mahdibeit/Crowd-Counting
 
-        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #   icon: fab fa-github
-        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-      #quote: >
-        #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-      description: | # this will include new lines to allow paragraphs
-        In this project, we utilized Spatio-temporal Representation Learning for EEG-based Brain-Computer Interfaces. We propose a novel method that can capture spatio-temporal representations of raw EEG in commercial settings using autoencoders. More specifically, we modify the machine learning (ML) pipeline by adding a feature learning preprocessing method that can capture cross-subject informationIn this project, we utilize Pytorch to build an end-to-end classification pipeline for Motor Imagery (MI) tasks using cross-subject data.
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          In this project, we utilized Spatio-temporal Representation Learning for EEG-based Brain-Computer Interfaces. We propose a novel method that can capture spatio-temporal representations of raw EEG in commercial settings using autoencoders. More specifically, we modify the machine learning (ML) pipeline by adding a feature learning preprocessing method that can capture cross-subject informationIn this project, we utilize Pytorch to build an end-to-end classification pipeline for Motor Imagery (MI) tasks using cross-subject data.
 
-        ![alt text](images/BCI.jpg "BCI Project")
+          ![alt text](images/BCI.jpg "BCI Project")
 
 
 
