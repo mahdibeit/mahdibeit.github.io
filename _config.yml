@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Mahdi and I'm a machine learning research scientis with +4 years of experience in industry and academia. I have developed, analyzed, and delivered end-to-end AI products for computer vision, bio-medical sensors, and audio processing to two companies. My research focuses on the implementation of distributed machine learning and privacy-preserving machine learning, and I have three research awards and three publications in this area.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  My day to day programming language is <mark>Python</mark> 
 
 content:
   - title: Projects # Title for the section
@@ -59,19 +59,41 @@ content:
       - layout: left #top-middle
         title: Federated Learning with Autoencoder Compression (FLAC)
         link: github.com/mahdibeit/FLAC
+        sub_title: Submitted to IEEE GLOBECOM 2022
         # link_text: Project Website
         additional_links:
           - title:  github.com/mahdibeit/FLAC
             icon: fab fa-github
             url: github.com/mahdibeit/FLAC
-            sub_title: Submitted to IEEE GLOBECOM 2022
+            
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          In this paper, we propose the Federated Learning with Autoencoder Compression (FLAC) approach that utilizes the redundant information and error-correcting capability of FL to compress user devices' models for uplink transmission. FLAC trains an autoencoder to encode and decode users' models at the server in the Training State, and then, sends the autoencoder to user devices for compressing local models for future iterations during the Compression State. To guarantee the convergence of the FL, FLAC dynamically controls the autoencoder error by switching between the Training State and Compression State to adjust its autoencoder and its compression rate based on the error tolerance of the FL system. We theoretically prove that FLAC converges for FL systems with strongly convex ML models and non-i.i.d. data distribution.
+          In this paper, we propose the Federated Learning with Autoencoder Compression (FLAC) approach that utilizes the redundant information and error-correcting capability of Federated Learning (FL) to compress user devices' models for uplink transmission. FLAC trains an autoencoder to encode and decode users' models at the server in the Training State, and then, sends the autoencoder to user devices for compressing local models for future iterations during the Compression State. We theoretically prove that FLAC converges for FL systems with strongly convex ML models and non-i.i.d. data distribution.
+      
+      - layout: left #top-middle
+        title: Crowd Counting with Perceptual Loss Function
+        link: github.com/mahdibeit/FLAC
+        #sub_title: Submitted to IEEE GLOBECOM 2022
+        # link_text: Project Website
+        additional_links:
+          - title:  github.com/mahdibeit/Crowd-Counting
+            icon: fab fa-github
+            url: github.com/mahdibeit/Crowd-Counting
+            
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          This project aims to develop, analyze, and evaluate methods that can accurately estimate the crowd count from a single image-based and generate the density map of images. To this end, we propose novel ideas in three main parts of preprocessing, model architectures, and loss function of our deep learning pipeline. More specifically, we utilize transfer learning methods by using pre-trained depth and image models to develop depth-guided attention models and VGG-based U-Net architecture to address the limited number of samples in the dataset and increase the accuracy.
+         
+
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
