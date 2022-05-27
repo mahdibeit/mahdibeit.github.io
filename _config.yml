@@ -73,6 +73,7 @@ content:
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           In this paper, we propose the Federated Learning with Autoencoder Compression (FLAC) approach that utilizes the redundant information and error-correcting capability of Federated Learning (FL) to compress user devices' models for uplink transmission. FLAC trains an autoencoder to encode and decode users' models at the server in the Training State, and then, sends the autoencoder to user devices for compressing local models for future iterations during the Compression State. We theoretically prove that FLAC converges for FL systems with strongly convex ML models and non-i.i.d. data distribution.
+          
           ![alt text](images/FLAC.jpg "FLAC Project")
           
           
@@ -94,6 +95,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           This project aims to develop, analyze, and evaluate methods that can accurately estimate the crowd count from a single image-based and generate the density map of images. To this end, we propose novel ideas in three main parts of preprocessing, model architectures, and loss function of our deep learning pipeline. More specifically, we utilize transfer learning methods by using pre-trained depth and image models to develop depth-guided attention models and VGG-based U-Net architecture to address the limited number of samples in the dataset and increase the accuracy.
          
+          ![alt text](images/Crowd.jpg "Crowd Project")
 
 
 
