@@ -73,7 +73,9 @@ content:
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           In this paper, we propose the Federated Learning with Autoencoder Compression (FLAC) approach that utilizes the redundant information and error-correcting capability of Federated Learning (FL) to compress user devices' models for uplink transmission. FLAC trains an autoencoder to encode and decode users' models at the server in the Training State, and then, sends the autoencoder to user devices for compressing local models for future iterations during the Compression State. We theoretically prove that FLAC converges for FL systems with strongly convex ML models and non-i.i.d. data distribution.
-      
+          ![alt text](images/FLAC.jpg "FLAC Project")
+          
+          
       - layout: left #top-middle
         title: Crowd Counting with Perceptual Loss Function
         link: github.com/mahdibeit/FLAC
