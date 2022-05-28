@@ -78,7 +78,7 @@ content:
           
       - layout: left #top-middle
         title: Crowd Counting with Perceptual Loss Function
-        link: github.com/mahdibeit/FLAC
+        link: github.com/mahdibeit/Crowd-Counting
         #sub_title: Submitted to IEEE GLOBECOM 2022
         # link_text: Project Website
         additional_links:
@@ -105,7 +105,7 @@ content:
         additional_links:
           - title:  https://github.com/mahdibeit/EEG-BasedBCI
             icon: fab fa-github
-            url: github.com/mahdibeit/Crowd-Counting
+            url: https://github.com/mahdibeit/EEG-BasedBCI
 
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
