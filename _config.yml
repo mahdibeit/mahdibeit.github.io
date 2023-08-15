@@ -60,9 +60,9 @@ content:
         title: Dynamic Sparsification for Federated Learning (DSFL)
         link: https://ieeexplore.ieee.org/abstract/document/10019204/
         sub_title: ICCSPA 2022
-        # link_text: Project Website
+        link_text: IEEE link
         additional_links:
-          - title:  https://ieeexplore.ieee.org/abstract/document/10019204/
+          - title:  hi
             icon: fab fa-github
             url: github.com/mahdibeit/DSFL
 
