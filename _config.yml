@@ -56,18 +56,19 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      # - layout: left #top-middle
-      #   title: Federated Learning Over Wireless Networks: Challenges and Solutions
-      #   link: https://ieeexplore.ieee.org/abstract/document/10153432
-      #   sub_title: Internet of Things Journal
-      #   link_text: IEEE link
-      #     - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #       icon: fab fa-github
-      #       url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-      #   #quote: >
-      #     #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-      #   description: | # this will include new lines to allow paragraphs
-      #     In this survey, we discuss each of the challenges of deploying federated learning over wireless networks and their respective state-of-the-art proposed solutions in an in-depth manner. By illustrating the tradeoff between each of the solutions, we discuss the underlying effect of the wireless network on the performance of FL.
+      - layout: left #top-middle
+        title: Federated Learning Over Wireless Networks -- Challenges and Solutions
+        link: https://ieeexplore.ieee.org/abstract/document/10153432
+        sub_title: Internet of Things Journal
+        link_text: IEEE link
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          In this survey, we discuss each of the challenges of deploying federated learning over wireless networks and their respective state-of-the-art proposed solutions in an in-depth manner. By illustrating the tradeoff between each of the solutions, we discuss the underlying effect of the wireless network on the performance of FL.
       #     ![alt text](images/class.png "Survey Paper")
 
       - layout: left #top-middle
