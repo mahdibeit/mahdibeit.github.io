@@ -62,9 +62,9 @@ content:
         sub_title: Under review
         link_text: Link to the paper
         additional_links:
-        #   - title:  
-        #     icon: fab fa-github
-        #     url: 
+          # - title:  
+          #   icon: fab fa-github
+          #   url: 
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
@@ -72,28 +72,6 @@ content:
         
         ![alt text](images/normalization_table.PNG "Normalization Paper")
 
-      - layout: left #top-middle
-        title: Dynamic Sparsification for Federated Learning (DSFL)
-        link: https://ieeexplore.ieee.org/abstract/document/10019204/
-        sub_title: ICCSPA 2022
-        link_text: Link to the paper
-        additional_links:
-          - title:  hi
-            icon: fab fa-github
-            url: github.com/mahdibeit/DSFL
-
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        #quote: >
-          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          In this paper, we introduce a novel Dynamic Sparsification for Federated Learning (DSFL) approach that enables users to compress their local models based on their communication capacity at each iteration by using two novel sparsification methods: layer-wise similarity sparsification (LSS) and extended top-K sparsification. LSS enables DSFL to utilize the global redundant information in users’ models by using the Centralized Kernel Alignment (CKA) similarity for sparsification. 
-          
-          ![alt text](images/CKA.JPG "FLAC Project")
-    
-    
-    
       - layout: left #top-middle
         title: Federated Learning Over Wireless Networks -- Challenges and Solutions
         link: https://ieeexplore.ieee.org/abstract/document/10153432
