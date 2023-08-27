@@ -68,9 +68,9 @@ content:
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-        Recently, layer normalization (LN) has been shown to be surprisingly effective in federated learning (FL) with non-i.i.d. data. However, exactly why and how it works remains mysterious. In this work, we reveal the profound connection between layer normalization and the label shift problem in federated learning. To understand layer normalization better in FL, we identify the key contributing mechanism of normalization methods in FL, called feature normalization (FN), which applies normalization to the latent feature representation before the classifier head. Although LN and FN do not improve expressive power, they control feature collapse and local overfitting to heavily skewed datasets, and thus accelerates global training. 
+          Recently, layer normalization (LN) has been shown to be surprisingly effective in federated learning (FL) with non-i.i.d. data. However, exactly why and how it works remains mysterious. To understand layer normalization better in FL, we identify the key contributing mechanism of normalization methods in FL, called feature normalization (FN), which applies normalization to the latent feature representation before the classifier head. Although LN and FN do not improve expressive power, they control feature collapse and local overfitting to heavily skewed datasets, and thus accelerates global training. 
         
-        ![alt text](images/normalization_table.PNG "Normalization Paper")
+          ![alt text](images/normalization_table.PNG "Normalization Paper")
 
       - layout: left #top-middle
         title: Federated Learning Over Wireless Networks -- Challenges and Solutions
@@ -85,6 +85,7 @@ content:
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           In this survey, we discuss each of the challenges of deploying federated learning over wireless networks and their respective state-of-the-art proposed solutions in an in-depth manner. By illustrating the tradeoff between each of the solutions, we discuss the underlying effect of the wireless network on the performance of FL.
+          
           ![alt text](images/class.png "Survey Paper")
 
       - layout: left #top-middle
