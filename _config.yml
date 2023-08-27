@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Mahdi and I'm a machine learning research scientist at <mark>Huawei</mark> Noah Ark Lab in Montreal. I have +4 years of experience in industry and academia. I have delivered end-to-end AI products for computer vision, bio-medical sensors, and audio processing to three companies. My research focuses on the implementation of distributed machine learning and privacy-preserving machine learning.
+  Hi, my name is Mahdi and I'm a machine learning research scientist at <mark>Huawei</mark> Noah's Ark Lab Montreal. I have +4 years of experience in industry and academia. I have delivered end-to-end AI products for computer vision, bio-medical sensors, and audio processing to three companies. My research focuses on the implementation of distributed machine learning and privacy-preserving machine learning.
 
 
 content:
