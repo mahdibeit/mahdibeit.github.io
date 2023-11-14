@@ -52,8 +52,26 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 content:
-  
   - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left #top-middle
+        title: Shortube.site
+        link: http://Shortube.site
+        sub_title: personal project
+        link_text: Link to site
+        additional_links:
+          # - title:  
+          #   icon: fab fa-github
+          #   url: 
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          test
+          ![alt text](images/normalization_table.PNG "Normalization Paper")
+
+  
+  - title: Papers # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left #top-middle
