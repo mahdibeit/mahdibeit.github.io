@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Mahdi and I'm a machine learning research scientist at <mark>Huawei</mark> Noah's Ark Lab Montreal. I have +4 years of experience in industry and academia. I have delivered end-to-end AI products for computer vision, bio-medical sensors, and audio processing to three companies. My research focuses on the implementation of distributed machine learning and privacy-preserving machine learning.
+  Hi, my name is Mahdi and I'm a machine learning research scientist at <mark>Huawei</mark> Noah's Ark Lab Montreal. I have +4 years of experience in industry and academia. I have delivered end-to-end AI products for computer vision, bio-medical sensors, and audio processing to three companies. My research focuses on the implementation of distributed machine learning and privacy-preserving machine learning. 
 
 
 content:
@@ -67,8 +67,8 @@ content:
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          test
-          ![alt text](images/normalization_table.PNG "Normalization Paper")
+          This API creates short-form videos with AI from YouTube videos. It uses OpenAI to create 60 seconds videos from YouTube links with one click that can be shared on TikTok, Instagram, YouTube shorts, or more. The motivation behind this project was to familiarize myself with microservice architecture design and implementation. I learned how to create an scalable system by working with databases, messaging protocols, docker containers, Linux infrastructures, etc.
+          ![alt text](images/microservice.jpg "shortube project")
 
   
   - title: Papers # Title for the section
