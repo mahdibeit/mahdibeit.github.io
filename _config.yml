@@ -68,7 +68,7 @@ content:
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           This API creates short-form videos with AI from YouTube videos. It uses OpenAI to create 60 seconds videos from YouTube links with one click that can be shared on TikTok, Instagram, YouTube shorts, or more. The motivation behind this project was to familiarize myself with microservice architecture design and implementation. I learned how to create an scalable system by working with databases, messaging protocols, docker containers, Linux infrastructures, etc.
-          ![alt text](images/microservice_v1.jpg "shortube project")
+          ![alt text](images/microservice.jpg "shortube project")
 
   
   - title: Papers # Title for the section
