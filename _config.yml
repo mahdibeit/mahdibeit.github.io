@@ -48,8 +48,10 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Mahdi and I'm a machine learning research scientist at <mark>Huawei</mark> Noah's Ark Lab Montreal. I have +4 years of experience in industry and academia. I have delivered end-to-end AI products for computer vision, bio-medical sensors, and audio processing to three companies. My research focuses on the implementation of distributed machine learning and privacy-preserving machine learning. 
-
+Hi, my name is Mahdi. 
+• I am a Machine learning research scientist and Python backend developer with two years of industry experience.
+• I am an experienced researcher specializing in federated learning, transfer learning, foundation models, and parameterefficient learning, with nine publications and four patents.
+• I am passionate about creating business values and actively seeking opportunities to learn and tackle complex, real-world problems.
 
 content:
   - title: Projects # Title for the section
@@ -57,7 +59,7 @@ content:
     content:
       - layout: left #top-middle
         title: Shortube.site
-        link: http://Shortube.site
+        link: https://Shortube.site
         sub_title: personal project
         link_text: Link to site
         additional_links:
