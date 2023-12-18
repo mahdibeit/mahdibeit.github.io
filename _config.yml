@@ -48,7 +48,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Mahdi. I am a Machine learning research scientist at <mark>Noah Ark Lab</mark> and Python backend developer with two years of industry experience. I am an experienced researcher specializing in <mark>federated learning</mark>, transfer learning, foundation models, and parameterefficient learning, with nine publications and four patents. I am passionate about creating <mark>business values</mark> and actively seeking opportunities to learn and tackle complex, real-world problems.
+  Hi, my name is Mahdi. I am a Machine learning research scientist at <mark>Noah Ark Lab</mark> and Python backend developer with two years of industry experience. 
+  I am an experienced researcher specializing in <mark>federated learning</mark>, transfer learning, foundation models, and parameter-efficient learning, with nine publications and four patents. 
+  I am passionate about creating <mark>business values</mark> and actively seeking opportunities to learn and tackle complex, real-world problems.
 
 content:
   - title: Projects # Title for the section
