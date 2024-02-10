@@ -76,6 +76,38 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left #top-middle
+        title: One-shot Federated Learning with Foundation Models
+        link: https://arxiv.org/pdf/2402.01862.pdf
+        sub_title: Under review
+        link_text: Link to the paper
+        additional_links:
+          # - title:  
+          #   icon: fab fa-github
+          #   url: 
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          This paper introduces FedPFT (Federated Learning with Parametric Feature Transfer), a methodology that harnesses the transferability of foundation models to enhance both accuracy and communication efficiency in one-shot FL. The approach involves transferring per-client parametric models (specifically, Gaussian mixtures) of features extracted from foundation models. Subsequently, each parametric model is employed to generate synthetic features for training a classifier head.
+          
+          ![alt text](images/FedPFT.png "Decentralized Federated Mutual Learning")
+
+      - layout: left #top-middle
+        title: Domain Generalization with Latent Diffusion Models
+        link: https://arxiv.org/pdf/2312.05387.pdf
+        sub_title: Under review
+        link_text: Link to the paper
+        additional_links:
+          # - title:  
+          #   icon: fab fa-github
+          #   url: 
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Can diffusion models function as data augmentation tools to address domain generalization (DG) from a data-centric perspective, rather than relying on the loss functions? Our findings reveal that trivial cross domain data augmentation (CDGA) along with the vanilla ERM using readily available diffusion models outperforms state-of-the-art (SOTA) training algorithms. This paper delves into the exploration of why and how this generative augmentation can outperform complicated DG algorithms.
+          
+          ![alt text](images/CDGA.png "Cross Domain Generative Augmentation")
+
+      - layout: left #top-middle
         title: Decentralized Federated Mutual Learning
         link: https://arxiv.org/pdf/2402.01863v1.pdf
         sub_title: Under review
@@ -89,7 +121,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Centralized servers in Federated Learning (FL) present challenges including communication bottlenecks and susceptibility to a single point of failure. Additionally, user devices inherently exhibit model and data heterogeneity. To address these issues, we propose a Decentralized Federated Mutual Learning (DFML) framework that is serverless, supports nonrestrictive heterogeneous models, and avoids reliance on public data. 
         
-          ![alt text](images/DFML.PNG "Decentralized Federated Mutual Learning")
+          ![alt text](images/DFML.png "Decentralized Federated Mutual Learning")
 
       - layout: left #top-middle
         title: Understanding Layer-Normalized Federated Learning under Extreme Label Shift
