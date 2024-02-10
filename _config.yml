@@ -126,7 +126,7 @@ content:
       - layout: left #top-middle
         title: Understanding Layer-Normalized Federated Learning under Extreme Label Shift
         link: https://arxiv.org/pdf/2308.09565.pdf
-        sub_title: Under review
+        sub_title: TMLR 2024
         link_text: Link to the paper
         additional_links:
           # - title:  
