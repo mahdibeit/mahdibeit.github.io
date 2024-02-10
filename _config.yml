@@ -76,6 +76,22 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left #top-middle
+        title: Decentralized Federated Mutual Learning
+        link: https://arxiv.org/pdf/2402.01863v1.pdf
+        sub_title: Under review
+        link_text: Link to the paper
+        additional_links:
+          # - title:  
+          #   icon: fab fa-github
+          #   url: 
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Centralized servers in Federated Learning (FL) present challenges including communication bottlenecks and susceptibility to a single point of failure. Additionally, user devices inherently exhibit model and data heterogeneity. To address these issues, we propose a Decentralized Federated Mutual Learning (DFML) framework that is serverless, supports nonrestrictive heterogeneous models, and avoids reliance on public data. 
+        
+          ![alt text](images/DFML.PNG "Decentralized Federated Mutual Learning")
+
+      - layout: left #top-middle
         title: Understanding Layer-Normalized Federated Learning under Extreme Label Shift
         link: https://arxiv.org/pdf/2308.09565.pdf
         sub_title: Under review
