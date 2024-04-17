@@ -97,9 +97,9 @@ content:
         sub_title: Under review
         link_text: Link to the paper
         additional_links:
-          # - title:  
-          #   icon: fab fa-github
-          #   url: 
+          - title:  github.com/mahdibeit/FedPFT
+            icon: fab fa-github
+            url: github.com/mahdibeit/FedPFT
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
