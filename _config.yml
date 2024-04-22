@@ -53,7 +53,14 @@ about_content: | # this will include new lines to allow paragraphs
   I am passionate about creating <mark>business values</mark> and actively seeking opportunities to learn and tackle complex, real-world problems. 
 
 content:
-  - title: Projects # Title for the section
+  - title: Programming Languages and Libraries
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Software: <mark>Python</mark>, <mark>C/C++</mark>, <mark>SQL</mark>, <mark>Unix</mark>, <mark>Shell</mark>, <mark>Django</mark>, <mark>HTML/CSS</mark>, <mark>Next.js</mark>
+      Machine Learning: <mark>PyTorch</mark>, <mark>HuggingFace</mark>, <mark>Deepspeed</mark>, <mark>Pandas</mark>, <mark>Tensorflow</mark>, <mark>Flower</mark>, <mark>Numpy</mark>, <mark>CUDA</mark>, <mark>Scikit-Learn</mark>, <mark>SciPy</mark>, <mark>XGBoost</mark>, <mark>Matplotlib</mark>, <mark>PySpark</mark>, <mark>Wandb</mark>, 
+      DevOps: <mark>Git</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>, <mark>Ray</mark>, <mark>Ansible</mark>, <mark>Terraform</mark>, <mark>MLflow</mark>, <mark>Github Actions</mark>, <mark>AWS (S3, EC2, Sagemaker)]</mark>, <mark>PyTest</mark>, <mark>PreCommit</mark>,
+  
+  - title: Web Services # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left #top-middle
@@ -72,7 +79,7 @@ content:
           ![alt text](images/microservice.jpg "shortube project")
 
   
-  - title: Papers # Title for the section
+  - title: Papers + Codes # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left #top-middle
@@ -81,9 +88,9 @@ content:
         sub_title: Under review
         link_text: Link to the paper
         additional_links:
-          # - title:  
-          #   icon: fab fa-github
-          #   url: 
+          - title:  github.com/mahdibeit/wlora
+            icon: fab fa-github
+            url: github.com/mahdibeit/wlora
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
@@ -257,13 +264,7 @@ content:
 
 
   
-  - title: Programming Languages and Libraries
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Programming languages: <mark>Python</mark>, <mark>C</mark>, <mark>Matlab</mark>, <mark>SQL</mark>, <mark>Java</mark>, <mark>Bash</mark>, <mark>Git</mark>
-      
-      Libraries: <mark>Python</mark>,  <mark>PyTorch</mark>, <mark>Pandas</mark>, <mark>Tensorflow</mark>, <mark>Flower</mark>, <mark>PySyft</mark>, <mark>Numpy</mark>, <mark>CUDA</mark>, <mark>Sklearn</mark>, <mark>Keras</mark>, <mark>SciPy</mark>, <mark>XGBoost</mark>, <mark>Matplotlib</mark>, <mark>PySpark</mark>, <mark>MLflow</mark>
-
+  
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
