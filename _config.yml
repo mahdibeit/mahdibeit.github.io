@@ -91,9 +91,21 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left #top-middle
+        title: NoT: Federated Unlearning via Weight Negation
+        link: https://arxiv.org/pdf/2503.05657
+        sub_title: CVPR 2025
+        link_text: Link to the paper
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          In this paper, we introduce NoT, a federated unlearning algorithm that leverages weight negation (multiplying targeted parameters by –1) to remove a client’s contributions without requiring extra storage or access to the original data. We show theoretically that this perturbation breaks inter-layer co-adaptation while preserving an approximate optimality property, allowing the model to be quickly re-optimized. Empirical results on three datasets and architectures demonstrate that NoT outperforms existing methods in both unlearning effectiveness and  efficiency.
+          
+          ![alt text](images/not_unlearning.png "NoT overview. Upon receiving unlearning requests from target clients, the server initiates the unlearning process by applying layer-wise parameter negation to the global model.")
+          
+      - layout: left #top-middle
         title: Does Combining Parameter-efficient Modules Improve Few-shot Transfer Accuracy?
         link: https://arxiv.org/pdf/2402.15414.pdf
-        sub_title: Under review
+        sub_title: Foundation Models in the Wild @ ICML 2024
         link_text: Link to the paper
         additional_links:
           - title:  github.com/mahdibeit/wlora
@@ -109,7 +121,7 @@ content:
       - layout: left #top-middle
         title: One-shot Federated Learning with Foundation Models
         link: https://arxiv.org/pdf/2402.01862.pdf
-        sub_title: Under review
+        sub_title: TMLR 2025
         link_text: Link to the paper
         additional_links:
           - title:  github.com/mahdibeit/FedPFT
@@ -125,7 +137,7 @@ content:
       - layout: left #top-middle
         title: Domain Generalization with Latent Diffusion Models
         link: https://arxiv.org/pdf/2312.05387.pdf
-        sub_title: Under review
+        sub_title: TMLR 2024
         link_text: Link to the paper
         additional_links:
           # - title:  
@@ -141,7 +153,7 @@ content:
       - layout: left #top-middle
         title: Decentralized Federated Mutual Learning
         link: https://arxiv.org/pdf/2402.01863v1.pdf
-        sub_title: Under review
+        sub_title: TMLR 2024
         link_text: Link to the paper
         additional_links:
           # - title:  
