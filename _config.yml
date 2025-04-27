@@ -91,7 +91,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left #top-middle
-        title: NoT: Federated Unlearning via Weight Negation
+        title: Federated Unlearning via Weight Negation (NoT)
         link: https://arxiv.org/pdf/2503.05657
         sub_title: CVPR 2025
         link_text: Link to the paper
