@@ -68,9 +68,24 @@ content:
       
       DevOps: <mark>Git</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>,  <mark>AWS (S3, EC2, Sagemaker)]</mark>, <mark>Azure (AML, AKS, AKV, ADLS, Cosmos DB)]</mark>, <mark>Ansible</mark>, <mark>Terraform</mark>, <mark>MLflow</mark>, <mark>Github Actions</mark>, <mark>PyTest</mark>
   
-  - title: Web Services # Title for the section
+  - title: Web Applications # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left #top-middle
+        title: ScrollCart.app
+        link: https://ScrollCart.app
+        sub_title: personal project
+        link_text: Link to site
+        additional_links:
+          # - title:  
+          #   icon: fab fa-github
+          #   url: 
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          This project is an AI-powered shopping feed that curates Amazon products using content-based filtering. It uses view, like, and click signals to generate personalized recommendations, blended with a mix of random items for discovery. I built this to explore modern web development stacks like TypeScript, Next.js, and ShadCN UI, while also learning practical concepts in recommendation systems, Redis (via Upstash), and large-scale data scraping.
+          ![alt text](images/scrollcart.jpg "shortube project")
+          
       - layout: left #top-middle
         title: Shortube.site
         link: https://Shortube.site
