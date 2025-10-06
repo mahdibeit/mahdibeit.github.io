@@ -67,10 +67,22 @@ content:
       Software: <mark>Python</mark>, <mark>Javascript</mark>, <mark>C/C++</mark>, <mark>Shell</mark>, <mark>FastApi</mark>, <mark>Next.js</mark>
       
       DevOps: <mark>Git</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>,  <mark>AWS (S3, EC2, Sagemaker)]</mark>, <mark>Azure (AML, AKS, AKV, ADLS, Cosmos DB)]</mark>, <mark>Ansible</mark>, <mark>Terraform</mark>, <mark>MLflow</mark>, <mark>Github Actions</mark>, <mark>PyTest</mark>
-  
+    
   - title: Web Applications # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left #top-middle
+        title: BrickArt.dev
+        link: https://BrickArt.dev
+        sub_title: personal project
+        link_text: Link to site
+        description: |
+          BrickArt is a creative web app that transforms any photo into a custom LEGO-style wall arts. Users can upload their favorite images, adjust colors, and preview their designs in full 3D using Three.js. The platform then generates an exact brick parts list and renders art on the wall, letting anyone turn digital art into real-world creations.
+      
+          I built this project to explore advanced web rendering, 3D visualization, and product customization workflows. It integrates modern web technologies like Next.js, TypeScript, and Three.js for real-time previews, and I’m currently expanding it with marketing experiments and community-driven art features to engage creators and LEGO enthusiasts.
+          
+          ![alt text](images/brickart.jpg "brick art project")
+            
       - layout: left #top-middle
         title: ScrollCart.app
         link: https://ScrollCart.app
