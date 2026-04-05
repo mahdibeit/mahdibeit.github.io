@@ -50,9 +50,9 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Mahdi, a machine learning engineer currently working at Noah's Ark Lab.
 
-  I specialize in distributed training, federated learning, and transfer learning.
+  I specialize in distributed training, federated learning, LLMs, and building agentic products.
 
-  With 11 publications and two patents, my work revolves around training and deploying AI models such as LLMs and computer vision models.
+  With 12 publications and two patents, my work revolves around training and deploying AI models such as LLMs and computer vision models.
 
   I am very passionate about building AI products to solve real-world problems, and I deeply advocate for open source.
 
@@ -62,11 +62,11 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Machine Learning: <mark>PyTorch</mark>, <mark>Transformers</mark>, <mark>vLLM</mark>, <mark>PEFT</mark>, <mark>TRL</mark>, <mark>Pandas</mark>, 
+      Machine Learning: <mark>PyTorch</mark>, <mark>Transformers</mark>, <mark>vLLM</mark>, <mark>PEFT</mark>, <mark>TRL</mark>, <mark>Ray</mark>, <mark>Langchain</mark>, <mark>Langgraph</mark>, <mark>Pandas</mark>
       
       Software: <mark>Python</mark>, <mark>Javascript</mark>, <mark>C/C++</mark>, <mark>Shell</mark>, <mark>FastApi</mark>, <mark>Next.js</mark>
       
-      DevOps: <mark>Git</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>,  <mark>AWS (S3, EC2, Sagemaker)]</mark>, <mark>Azure (AML, AKS, AKV, ADLS, Cosmos DB)]</mark>, <mark>Ansible</mark>, <mark>Terraform</mark>, <mark>MLflow</mark>, <mark>Github Actions</mark>, <mark>PyTest</mark>
+      DevOps: <mark>Git</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>,  <mark>AWS (S3, EC2, Sagemaker)]</mark>, <mark>Azure (AML, AKS, AKV, ADLS, Cosmos DB)]</mark>, <mark>Ansible</mark>, <mark>Terraform</mark>, <mark>MLflow</mark>, <mark>Github Actions</mark>, <mark>PyTest</mark> , <mark>Jenkins</mark>
     
   - title: Web Applications # Title for the section
     layout: list # Type of content section (list/text)
@@ -82,18 +82,6 @@ content:
           I built this project to explore full-stack AI integration in a real-world context. It uses Next.js, TypeScript, and a PostgreSQL database to store scrape history, track sale state changes, and serve a live dashboard. Key engineering challenges included building a reliable scraping pipeline with retry logic, rate limiting, and an AI system that extracts structured sale data from unstructured HTML end-to-end.
 
           ![alt text](images/closetta.jpg "closetta project")
-
-      - layout: left #top-middle
-        title: BrickArt.dev
-        link: https://BrickArt.dev
-        sub_title: personal project
-        link_text: Link to site
-        description: |
-          BrickArt is a creative web app that transforms any photo into a custom LEGO-style wall arts. Users can upload their favorite images, adjust colors, and preview their designs in full 3D using Three.js. The platform then generates an exact brick parts list and renders art on the wall, letting anyone turn digital art into real-world creations.
-      
-          I built this project to explore advanced web rendering, 3D visualization, and product customization workflows. It integrates modern web technologies like Next.js, TypeScript, and Three.js for real-time previews, and I’m currently expanding it with marketing experiments and community-driven art features to engage creators and LEGO enthusiasts.
-          
-          ![alt text](images/brickart.jpg "brick art project")
             
       - layout: left #top-middle
         title: ScrollCart.app
@@ -156,6 +144,18 @@ content:
   - title: Papers + Codes # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left #top-middle
+        title: Toward Enhancing Representation Learning in Federated Multi-Task Settings
+        link: https://arxiv.org/pdf/2602.01626
+        sub_title: ICLR 2026
+        link_text: Link to the paper
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          In this paper, we propose a novel Federated multi-task learning (FMTL) framework to collaboratively train customized models for users with different tasks while preserving data privacy. Spesifacally, we propose Muscle loss, a novel contrastive learning objective that simultaneously aligns representations from all participating models. Unlike existing multi-view or multi-model contrastive methods, which typically align models pairwise, Muscle loss can effectively capture dependencies across tasks because its minimization is equivalent to the maximization of mutual information among all the models’ representations.
+          
+          ![alt text](images/muscle.png "FedMuscle overview. Users may have heterogeneous models, tasks, and local datasets. A shared public dataset is used by all users to align the representation spaces of their models via the Muscle loss function.")
+          
       - layout: left #top-middle
         title: Federated Unlearning via Weight Negation (NoT)
         link: https://arxiv.org/pdf/2503.05657
