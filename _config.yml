@@ -71,6 +71,45 @@ content:
   - title: Web Applications # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Closetta.app
+        link: https://closetta.app
+        sub_title: personal project
+        link_text: Link to site
+        description: |
+          Closetta is an AI-powered fashion sale tracker that monitors North American clothing brands and alerts subscribers to new promotions. It automatically scrapes brand websites, uses an LLM (via OpenRouter) to extract and validate sale details like discount percentage and dates, and sends a daily digest email to subscribers only when new sales are detected.
+
+          I built this project to explore full-stack AI integration in a real-world context. It uses Next.js, TypeScript, and a PostgreSQL database to store scrape history, track sale state changes, and serve a live dashboard. Key engineering challenges included building a reliable scraping pipeline with retry logic, rate limiting, and an AI system that extracts structured sale data from unstructured HTML end-to-end.
+
+          ![alt text](images/closetta.jpg "closetta project")
+
+      - layout: left #top-middle
+        title: BrickArt.dev
+        link: https://BrickArt.dev
+        sub_title: personal project
+        link_text: Link to site
+        description: |
+          BrickArt is a creative web app that transforms any photo into a custom LEGO-style wall arts. Users can upload their favorite images, adjust colors, and preview their designs in full 3D using Three.js. The platform then generates an exact brick parts list and renders art on the wall, letting anyone turn digital art into real-world creations.
+      
+          I built this project to explore advanced web rendering, 3D visualization, and product customization workflows. It integrates modern web technologies like Next.js, TypeScript, and Three.js for real-time previews, and I’m currently expanding it with marketing experiments and community-driven art features to engage creators and LEGO enthusiasts.
+          
+          ![alt text](images/brickart.jpg "brick art project")
+            
+      - layout: left #top-middle
+        title: ScrollCart.app
+        link: https://ScrollCart.app
+        sub_title: personal project
+        link_text: Link to site
+        additional_links:
+          # - title:  
+          #   icon: fab fa-github
+          #   url: 
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          This project is an AI-powered shopping feed that curates Amazon products using content-based filtering. It uses view, like, and click signals to generate personalized recommendations, blended with a mix of random items for discovery. I built this to explore modern web development stacks like TypeScript, Next.js, and ShadCN UI, while also learning practical concepts in recommendation systems, Redis (via Upstash), and large-scale data scraping.
+          ![alt text](images/scrollcart.jpg "shortube project")
+          
       - layout: left #top-middle
         title: BrickArt.dev
         link: https://BrickArt.dev
