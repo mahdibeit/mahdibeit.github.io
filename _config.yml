@@ -66,7 +66,7 @@ content:
       
       Software: <mark>Python</mark>, <mark>Javascript</mark>, <mark>C/C++</mark>, <mark>Shell</mark>, <mark>FastApi</mark>, <mark>Next.js</mark>
       
-      DevOps: <mark>Git</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>,  <mark>AWS (S3, EC2, Sagemaker)]</mark>, <mark>Azure (AML, AKS, AKV, ADLS, Cosmos DB)]</mark>, <mark>Ansible</mark>, <mark>Terraform</mark>, <mark>MLflow</mark>, <mark>Github Actions</mark>, <mark>PyTest</mark> , <mark>Jenkins</mark>
+      DevOps: <mark>Git</mark>, <mark>Docker</mark>, <mark>Kubernetes</mark>,  <mark>AWS (S3, EC2, Sagemaker)]</mark>, <mark>Azure (AML, AKS, AKV, ADLS, Cosmos DB)]</mark>, <mark>Ansible</mark>, <mark>Terraform</mark>, <mark>MLflow</mark>, <mark>Github Actions</mark>, <mark>PyTest</mark>
     
   - title: Web Applications # Title for the section
     layout: list # Type of content section (list/text)
@@ -109,21 +109,6 @@ content:
           I built this project to explore advanced web rendering, 3D visualization, and product customization workflows. It integrates modern web technologies like Next.js, TypeScript, and Three.js for real-time previews, and I’m currently expanding it with marketing experiments and community-driven art features to engage creators and LEGO enthusiasts.
           
           ![alt text](images/brickart.jpg "brick art project")
-            
-      - layout: left #top-middle
-        title: ScrollCart.app
-        link: https://ScrollCart.app
-        sub_title: personal project
-        link_text: Link to site
-        additional_links:
-          # - title:  
-          #   icon: fab fa-github
-          #   url: 
-        #quote: >
-          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          This project is an AI-powered shopping feed that curates Amazon products using content-based filtering. It uses view, like, and click signals to generate personalized recommendations, blended with a mix of random items for discovery. I built this to explore modern web development stacks like TypeScript, Next.js, and ShadCN UI, while also learning practical concepts in recommendation systems, Redis (via Upstash), and large-scale data scraping.
-          ![alt text](images/scrollcart.jpg "shortube project")
           
       - layout: left #top-middle
         title: Shortube.site
@@ -154,7 +139,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           In this paper, we propose a novel Federated multi-task learning (FMTL) framework to collaboratively train customized models for users with different tasks while preserving data privacy. Spesifacally, we propose Muscle loss, a novel contrastive learning objective that simultaneously aligns representations from all participating models. Unlike existing multi-view or multi-model contrastive methods, which typically align models pairwise, Muscle loss can effectively capture dependencies across tasks because its minimization is equivalent to the maximization of mutual information among all the models’ representations.
           
-          ![alt text](images/muscle.png "FedMuscle overview. Users may have heterogeneous models, tasks, and local datasets. A shared public dataset is used by all users to align the representation spaces of their models via the Muscle loss function.")
+          ![alt text](images/muscle.jpg "FedMuscle overview. Users may have heterogeneous models, tasks, and local datasets. A shared public dataset is used by all users to align the representation spaces of their models via the Muscle loss function.")
           
       - layout: left #top-middle
         title: Federated Unlearning via Weight Negation (NoT)
