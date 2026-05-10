@@ -93,7 +93,7 @@ content:
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          AI-powered shopping feed that curates Amazon products using content-based filtering. Uses view, like, and click signals to generate personalized recommendations blended with discovery items. Built with Next.js, TypeScript, ShadCN UI, and Redis (Upstash).
+          AI-powered shopping feed that curates Amazon products using content-based filtering. Uses Qwen embeddings to extract product features and semantic representations, combined with view, like, and click signals to generate personalized recommendations blended with discovery items. Built with Next.js, TypeScript, ShadCN UI, and Redis (Upstash).
           ![alt text](images/scrollcart.jpg "shortube project")
           
       - layout: left #top-middle
