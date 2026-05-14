@@ -142,6 +142,10 @@ content:
         link: https://arxiv.org/pdf/2503.05657
         sub_title: CVPR 2025
         link_text: Link to the paper
+        additional_links:
+          - title:  github.com/mahdibeit/not-federated-unlearning
+            icon: fab fa-github
+            url: github.com/mahdibeit/not-federated-unlearning
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
