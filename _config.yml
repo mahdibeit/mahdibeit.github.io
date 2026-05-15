@@ -130,6 +130,10 @@ content:
         link: https://arxiv.org/pdf/2602.01626
         sub_title: ICLR 2026
         link_text: Link to the paper
+        additional_links:
+          - title:  github.com/mahdibeit/FedMuscle
+            icon: fab fa-github
+            url: https://github.com/mahdibeit/FedMuscle/
         #quote: >
           #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
