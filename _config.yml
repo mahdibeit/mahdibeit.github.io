@@ -79,7 +79,7 @@ content:
         description: |
           AI-powered fashion sale tracker that monitors North American clothing brands and alerts subscribers to new promotions. It scrapes brand websites, uses an LLM to extract and validate sale details, and sends a daily digest email only when new sales are detected. Built with Next.js, TypeScript, and PostgreSQL.
 
-          <video src="https://github.com/user-attachments/assets/d0032250-69d2-414c-ad6a-605150ff9a8c" autoplay loop muted playsinline width="100%"></video>
+          <video src="images/closetta-demo.mp4" autoplay loop muted playsinline width="100%"></video>
             
       - layout: left #top-middle
         title: ScrollCart.app
